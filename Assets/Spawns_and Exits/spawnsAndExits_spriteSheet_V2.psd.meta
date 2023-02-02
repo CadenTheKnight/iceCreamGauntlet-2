@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ed8b57489b940f74a830cb43e7409076
+guid: 7105fd13dc533d9478d2d49f855e2248
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -104,169 +104,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemyCharacter-spriteSheet_0
+      name: spawnsAndExits_spriteSheet_V2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 63
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bde69522ca56912449746fdaddd972aa
-      internalID: -530932998
+      spriteID: 577963a2817f142499c5cd960f998438
+      internalID: -1867298004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyCharacter-spriteSheet_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 63
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de2b217fc8b50a64db3b849d4d6cf3df
-      internalID: 998984856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemyCharacter-spriteSheet_2
+      name: spawnsAndExits_spriteSheet_V2_1
       rect:
         serializedVersion: 2
         x: 64
-        y: 63
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c83ab3e47392834c8a0ce9f42f54886
-      internalID: -297794172
+      spriteID: 0564a76a89771be47af52ce176a32aa4
+      internalID: 338617572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyCharacter-spriteSheet_3
+      name: spawnsAndExits_spriteSheet_V2_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 63
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff10635eeb04366469e38be87827d15e
-      internalID: 730472820
+      spriteID: 429535dc440605b45b2f4f31e6e5123c
+      internalID: -1428924849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyCharacter-spriteSheet_4
+      name: spawnsAndExits_spriteSheet_V2_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 31
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e7094140878b0146969aefd813d3431
-      internalID: 46683341
+      spriteID: f5e6fe1a74cbc7245b775fd452bc4671
+      internalID: -1723341224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyCharacter-spriteSheet_5
+      name: spawnsAndExits_spriteSheet_V2_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 31
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0191ebc01479db7488f3dfa3adbfdafe
-      internalID: 1441859339
+      spriteID: 49a5b7df764b2e946b5b8e9440278523
+      internalID: -1506431367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyCharacter-spriteSheet_6
+      name: spawnsAndExits_spriteSheet_V2_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 31
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9d8a1acac2764546a12e29eeda2c461
-      internalID: 1759438627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemyCharacter-spriteSheet_7
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 31
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e2f0ad1ca325a24aa0b5463c9dd5111
-      internalID: -413349768
+      spriteID: 9eff0cb3bb980954db3dc4c6ddfc7387
+      internalID: 1963796978
       vertices: []
       indices: 
       edges: []
@@ -282,14 +240,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      enemyCharacter-spriteSheet_4: 46683341
-      enemyCharacter-spriteSheet_6: 1759438627
-      enemyCharacter-spriteSheet_1: 998984856
-      enemyCharacter-spriteSheet_2: -297794172
-      enemyCharacter-spriteSheet_0: -530932998
-      enemyCharacter-spriteSheet_5: 1441859339
-      enemyCharacter-spriteSheet_3: 730472820
-      enemyCharacter-spriteSheet_7: -413349768
+      spawnsAndExits_spriteSheet_V2_0: -1867298004
+      spawnsAndExits_spriteSheet_V2_3: -1723341224
+      spawnsAndExits_spriteSheet_V2_5: 1963796978
+      spawnsAndExits_spriteSheet_V2_1: 338617572
+      spawnsAndExits_spriteSheet_V2_2: -1428924849
+      spawnsAndExits_spriteSheet_V2_4: -1506431367
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 1
