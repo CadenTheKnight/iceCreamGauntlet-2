@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7720459184757789723}
   - component: {fileID: 8987421009735502009}
   - component: {fileID: 2754100372617488565}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy_2
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 6809028756218498095}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -13.608393, y: -6.3894777, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -122,7 +122,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0053601265, y: 0.39263797}
+  m_Offset: {x: -0.0053601265, y: 0.77512455}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -133,7 +133,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.54765415, y: 0.44223452}
+  m_Size: {x: 0.54765415, y: 0.95007324}
   m_EdgeRadius: 0
 --- !u!114 &8987421009735502009
 MonoBehaviour:

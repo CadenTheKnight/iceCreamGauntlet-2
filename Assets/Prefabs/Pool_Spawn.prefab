@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3855964105401580674}
   - component: {fileID: 5054300262731257170}
+  - component: {fileID: 65455404341753962}
   m_Layer: 0
   m_Name: Pool_Spawn
   m_TagString: Untagged
@@ -84,3 +85,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &65455404341753962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3435974208744028795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f46c61b3ad6dee4cbad546095629b29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnFrequency: 1.5
+  horizontal: 1
+  rightOrUp: 1
+  isPool: 1
+  childToSpawn: {fileID: 7957620099689523488, guid: bde4b03cda5dbef489e81f7e0d177527, type: 3}

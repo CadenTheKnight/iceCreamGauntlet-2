@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3728730969634012769}
   - component: {fileID: 3728730969634012768}
   - component: {fileID: 4876163590005425915}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scooper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,6 +103,7 @@ MonoBehaviour:
   timeInvincible: 1.5
   maxHealth: 10
   speed: 6
+  projectile: {fileID: 8149032885017234656, guid: a2d490a9b9fb6a743baceb018eaee584, type: 3}
 --- !u!50 &3728730969634012769
 Rigidbody2D:
   serializedVersion: 4
@@ -137,7 +138,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0077676773, y: 0.27452326}
+  m_Offset: {x: -0.0044732094, y: 0.5347917}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -148,7 +149,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7408562, y: 0.6833582}
+  m_Size: {x: 0.37845707, y: 0.76901674}
   m_EdgeRadius: 0
 --- !u!95 &4876163590005425915
 Animator:

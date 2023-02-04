@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 202309293695750997}
   - component: {fileID: 3892930789471582798}
+  - component: {fileID: 5516177137190771720}
   m_Layer: 0
   m_Name: Swing_Spawner
   m_TagString: Untagged
@@ -84,3 +85,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5516177137190771720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221953389951412371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f46c61b3ad6dee4cbad546095629b29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnFrequency: 0
+  horizontal: 1
+  rightOrUp: 1
+  isPool: 0
+  childToSpawn: {fileID: 5911195617064272547, guid: cb13e064a77911f4086e626c2784f806, type: 3}

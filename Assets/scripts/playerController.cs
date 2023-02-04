@@ -23,6 +23,8 @@ public class playerController : MonoBehaviour
     Animator animator;
     Vector2 lookDirection = new Vector2(1,0);
 
+    public GameObject projectile;
+
 
     // Start is called before the first frame update
     void Start()
@@ -49,10 +51,10 @@ public class playerController : MonoBehaviour
         
         animator.SetFloat("X", lookDirection.x);
         animator.SetFloat("Y", lookDirection.y);
-        animator.SetFloat("", move.magnitude);
+        //animator.SetFloat("", move.magnitude);
 
 
-         //if you can be damaged (not invincible), then count down invincibility timer
+         //if you cannot be damaged (invincible), then count down invincibility timer
         if(!canBeDamaged)
         {
             invincibleTimer -= timeInvincible * Time.deltaTime;
@@ -60,6 +62,10 @@ public class playerController : MonoBehaviour
             {
                 canBeDamaged = true;
             }
+        }
+
+        if(Input.GetKeyDown("space")){
+            ShootProjectile();
         }
        
     }
@@ -80,8 +86,8 @@ public class playerController : MonoBehaviour
         //if you collide with an enemy, start timer, decrease health, and check for game over (if health < 0)
         if(col.gameObject.tag == "enemy" && canBeDamaged)
         {
-            Debug.Log("ENEMY HIT YOU");
-            Debug.Log(health);
+            //Debug.Log("ENEMY HIT YOU");
+            Debug.Log("Health: " + health);
             canBeDamaged = false;
             invincibleTimer = timeInvincible;
             health--;
@@ -93,8 +99,20 @@ public class playerController : MonoBehaviour
         
     }
 
-     void GameOver()
+    void GameOver()
     {
         Debug.Log("Game Over. Health: " + health);
+    }
+
+    void ShootProjectile(){
+        GameObject projectileObject = Instantiate(projectile, rigidbody2d.position + Vector2.up * 1.0f, Quaternion.identity);
+        projectileController projectileScript = projectileObject.GetComponent<projectileController>();
+        //projectileScript.Launch(lookDirection + Vector2.one*0.1f, 400);
+        if(Mathf.Approximately(lookDirection.x, 0.0f) && Mathf.Approximately(lookDirection.y, 0.0f)) {
+            projectileScript.Launch(Vector2.down, 600);
+        } else{
+            projectileScript.Launch(lookDirection, 600);
+        }
+        
     }
 }
