@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class playerController : MonoBehaviour
 {
 
@@ -15,6 +15,10 @@ public class playerController : MonoBehaviour
 
     public int maxHealth = 10;
     int health;
+    public GameObject heart1;
+    public GameObject heart2;
+    public GameObject heart3;
+    public GameObject heart4;
 
     //public variables-------------------
     public float speed = 0.2f;
@@ -91,10 +95,22 @@ public class playerController : MonoBehaviour
             canBeDamaged = false;
             invincibleTimer = timeInvincible;
             health--;
+            RedrawHealth();
             if(health <= 0)
             {
-                GameOver();
+                //GameOver();
+                SceneManager.LoadScene("LoseScreen");
             }
+        }
+
+        if(col.gameObject.tag == "Exit_1")
+        {
+            SceneManager.LoadScene("Level_2");
+        }
+
+        if(col.gameObject.tag == "Exit_2")
+        {
+            SceneManager.LoadScene("WinScreen");
         }
         
     }
@@ -115,4 +131,20 @@ public class playerController : MonoBehaviour
         }
         
     }
+
+    void RedrawHealth(){
+        if(health <= 3){
+            heart1.SetActive(false);
+        }
+        if(health <= 2){
+            heart2.SetActive(false);
+        }
+        if(health <= 1){
+            heart3.SetActive(false);
+        }
+        if(health <= 0){
+            heart4.SetActive(false);
+        }
+    }
+
 }

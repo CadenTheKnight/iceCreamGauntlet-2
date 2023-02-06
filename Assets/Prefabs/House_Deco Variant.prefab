@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4345538595414098395, guid: 15a89fce5a6b1eb4f9609498a442a6ca, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4345538595414098395, guid: 15a89fce5a6b1eb4f9609498a442a6ca, type: 3}
+      propertyPath: spawnFrequency
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5319765104681065309, guid: 15a89fce5a6b1eb4f9609498a442a6ca, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7209715674691288553, guid: 15a89fce5a6b1eb4f9609498a442a6ca, type: 3}
       propertyPath: m_Name
-      value: House_Spawner_Deco
+      value: House_Deco Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15a89fce5a6b1eb4f9609498a442a6ca, type: 3}

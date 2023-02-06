@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f46c61b3ad6dee4cbad546095629b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnFrequency: 0
+  spawnFrequency: 10
   horizontal: 1
   rightOrUp: 1
   isPool: 0

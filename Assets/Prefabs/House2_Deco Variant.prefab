@@ -9,7 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2126176771636456542, guid: 4f0b941f8b1bfe04dbe08ef1734fd07d, type: 3}
       propertyPath: m_Name
-      value: House2_Deco
+      value: House2_Deco Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5625075216133168393, guid: 4f0b941f8b1bfe04dbe08ef1734fd07d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9156748207851234103, guid: 4f0b941f8b1bfe04dbe08ef1734fd07d, type: 3}
       propertyPath: m_RootOrder
